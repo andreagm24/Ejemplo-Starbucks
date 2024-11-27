@@ -40,6 +40,10 @@
     background-color: rgb(30, 57, 50)
 }
 
+#caja-5 {
+    background-color: rgb(213, 0, 50)
+}
+
 /* styles.css */
 body {
     margin: 0;
@@ -87,7 +91,8 @@ body {
 .store-locator {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
@@ -100,7 +105,7 @@ body {
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -121,4 +126,14 @@ body {
 
 .join:hover {
     background-color: #333;
+}
+
+.Conocemas {
+    border: 1px solid white;
+    background-color: rgb(213, 0, 50);
+    color: white;
+}
+
+.Conocemas:hover {
+    background-color: rgb(213, 0, 50)
 }

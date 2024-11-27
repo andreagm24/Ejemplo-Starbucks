@@ -32,6 +32,14 @@
     background-color: rgb(0, 68, 180);
 }
 
+#caja-3 {
+    background-color: rgb(213, 0, 50)
+}
+
+#caja-4 {
+    background-color: rgb(30, 57, 50)
+}
+
 /* styles.css */
 body {
     margin: 0;

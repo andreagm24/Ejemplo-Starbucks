@@ -44,6 +44,52 @@
     background-color: rgb(213, 0, 50)
 }
 
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.container {
+width: 665px;
+height: 800px;
+font-weight: bold;
+margin: 30px auto;
+text-align: center;
+}
+
+.container img {
+    width: 665px;
+    height: 555px;
+    flex: 1;
+    
+    }
+
+
+.container div {
+    font-size: 19px;
+    padding: 0px 70px;
+    max-width: 250px;
+    width: 100%;
+    flex: 1;
+    text-align:center
+} 
+
+#noticias {
+    background-color: rgb(246, 191, 217);
+    color: rgb(213, 0, 50)
+    
+}
+
+#promociones {
+    background-color: rgb(152, 205, 228);
+    color: rgb(0, 59, 73);
+      
+}
+
+
 /* styles.css */
 body {
     margin: 0;
@@ -135,5 +181,85 @@ body {
 }
 
 .Conocemas:hover {
-    background-color: rgb(213, 0, 50)
+    background-color: rgb(213, 0, 50);
 }
+
+.Aquí {
+    border: 1px solid rgb(213, 0, 50);
+    background-color: rgb(246, 191, 217);
+    color: rgb(213, 0, 50);
+    flex: 1;
+}
+
+.Aquí:hover {
+    background-color: rgb(246, 191, 217);
+}
+
+.Vermás {
+    border: 1px solid rgb(0, 59, 73);
+    background-color: rgb(152, 205, 228);
+    color: rgb(0, 59, 73);
+    flex: 1;
+    
+}
+
+.Vermás:hover {
+    background-color: rgb(152, 205, 228);
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }

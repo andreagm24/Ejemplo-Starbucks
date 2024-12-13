@@ -44,38 +44,31 @@
     background-color: rgb(213, 0, 50)
 }
 
-section {
+.seccion {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    column-gap: 50px;
 }
 
 .container {
-width: 665px;
+width: 40%;
 height: 800px;
-font-weight: bold;
-margin: 30px auto;
+margin: 15px 15px;
 text-align: center;
+overflow: hidden;
 }
 
 .container img {
-    width: 665px;
-    height: 555px;
-    flex: 1;
-    
-    }
-
-
-.container div {
-    font-size: 19px;
-    padding: 0px 70px;
-    max-width: 250px;
     width: 100%;
-    flex: 1;
-    text-align:center
-} 
+    height: auto;
+    
+}
+
+
+.container p {
+    font-size: 18px;
+}
 
 #noticias {
     background-color: rgb(246, 191, 217);
@@ -98,7 +91,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
@@ -127,6 +120,7 @@ body {
 .navbar-left {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .navbar-right {
@@ -188,7 +182,9 @@ body {
     border: 1px solid rgb(213, 0, 50);
     background-color: rgb(246, 191, 217);
     color: rgb(213, 0, 50);
-    flex: 1;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 .Aquí:hover {
@@ -199,8 +195,9 @@ body {
     border: 1px solid rgb(0, 59, 73);
     background-color: rgb(152, 205, 228);
     color: rgb(0, 59, 73);
-    flex: 1;
-    
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 .Vermás:hover {
@@ -210,18 +207,22 @@ body {
 footer {
     background-color: #f9f9f9;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
   }
   
   .footer-sections {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
+    padding-left: 250px;
+    margin-top: 20px;
+    gap: 30px
   }
   
   .footer-section h3 {
     font-size: 16px;
     margin-bottom: 10px;
+    
   }
   
   .footer-section ul {
@@ -230,36 +231,36 @@ footer {
   }
   
   .footer-section ul li {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   
   .footer-section ul li a {
     text-decoration: none;
-    color: #000;
-    font-size: 14px;
+    color: #4e4e4e;
+    font-size: 15px;
   }
   
   .footer-bottom {
     text-align: center;
-    font-size: 12px;
-    color: #555;
+    font-size: 15px;
+    color: #b1aeae;
   }
   
   .footer-bottom p {
-    margin: 5px 0;
+    margin: 30px 0;
   }
   
   .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   
   .social-icons a {
-    margin: 0 5px;
+    margin: 0 15px;
   }
   
   .social-icons img {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
   }
